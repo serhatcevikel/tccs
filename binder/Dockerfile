@@ -14,7 +14,7 @@ RUN apt update; \
 RUN \
     ## install R kernel for jupyter
     Rscript ${HOME}/binder/rpack.R && \
-    rm -r ${HOME}/binder;
+    rm -r ${HOME}/*;
  
 USER ${NB_USER}
 WORKDIR ${HOME}
