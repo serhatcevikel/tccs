@@ -1,7 +1,8 @@
     cranlist <- c(
                   "Quandl",
                   "ecb",
-                  "eurostat"
+                  "eurostat",
+                  "nbconvertR"
     )
 
 
