@@ -14,3 +14,5 @@
         }
     }
 
+
+    devtools::install_github("theislab/nbconvertR")
